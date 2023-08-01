@@ -1,0 +1,10 @@
+DoS - Denial of Service attack, this is used by threat actors to flood a network traffic to hinder it from functioning properly.
+
+This is a direct DoS SYN flood attack. There is an abnormal number of SYN requests even before the initial one is completed, and they seem to be from one source port (i.e. one location).
+
+There’s a three-way “handshake” before a TCP connection is established between a device and a server
+The user sends SYN (synchronized) requests to the device
+The server responds by sending SYN/ACK (synchronize acknowledge) packets to acknowledge receiving the request. This is the server agreeing to connect with the user.
+The device sends an ACK (acknowledge) packet to the server, and once received a TCP connection is made.
+
+
